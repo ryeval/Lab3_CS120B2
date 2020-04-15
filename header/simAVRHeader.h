@@ -5,7 +5,7 @@
 #endif
 
 #include <avr/sleep.h>
-#include "ryan/UCRCS120B_AVRTools/include/simavr/avr/avr_mcu_section.h"
+#include "/usr/local/opt/simavr/include/simavr/avr/avr_mcu_section.h"
 AVR_MCU(F_CPU,"atmega1284");
 AVR_MCU_VCD_FILE("build/results/Lab3_CS120B2_trace.vcd",1000);
 
